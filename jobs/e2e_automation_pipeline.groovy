@@ -1,10 +1,10 @@
-pipelineJob("e2e-automation-pipeline") {
+pipelineJob("e2e_automation_pipeline") {
     definition {
         cpsScm {
             scm {
                 git {
                     remote {
-                        url("https://github.com/kormachevt/e2e-automation-pipeline")
+                        url("https://github.com/kormachevt/e2e_automation_pipeline")
                     }
                     branch('*/master')
                 }
